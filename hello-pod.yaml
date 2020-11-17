@@ -6,7 +6,7 @@ metadata:
 spec:
     containers:
       - image: qualitythought/gameoflife:07112020
-        name: gol
+        name: gameoflife
         ports:
           - containerPort: 8080
             protocol: TCP
