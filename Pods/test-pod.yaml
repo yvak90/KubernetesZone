@@ -5,7 +5,7 @@ metadata:
     name: hellopod
 spec:
     containers:
-      - image: shaikhajaibrahim/springpetclinic
+      - image: qualitythought/gameoflife:07112020
         name: gol
         ports:
           - containerPort: 8080
