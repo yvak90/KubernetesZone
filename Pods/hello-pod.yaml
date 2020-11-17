@@ -2,11 +2,11 @@
 apiVersion: v1
 kind: Pod
 metadata:
-    name: first-pod
+    name: hello-pod
 spec:
     containers:
       - image: qualitythought/gameoflife:07112020
-        name: my-gol
+        name: gol
         ports:
           - containerPort: 8080
             protocol: TCP
