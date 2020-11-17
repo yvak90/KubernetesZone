@@ -2,7 +2,7 @@
     apiVersion: v1
     kind: Pod
     metadata:
-      name: gameoflife
+      name: gol
     spec:
       containers:
         - image: qualitythought/gameoflife:07112020
