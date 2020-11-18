@@ -7,10 +7,8 @@ spec:
     minReadySeconds: 5
     replicas : 3
     selector:
-        matchExpressions:
-          - key: gol
-            operator: In
-            values: ['key1', 'key2', 'key3']
+        matchLabels:
+          app: gol
     template:
         metadata:
             name: gol
