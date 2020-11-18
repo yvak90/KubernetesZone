@@ -21,5 +21,4 @@ spec:
                 name: gol
                 ports:
                   - containerPort: 8080
-                    name: Port8080
                     protocol: TCP
