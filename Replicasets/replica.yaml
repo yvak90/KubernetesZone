@@ -14,7 +14,7 @@ spec:
             name: gol
             labels:
                 app: gol
-                version: 1   
+                version: "1.0"   
         spec:
             containers:
               - image: qualitythought/gameoflife:07112020
